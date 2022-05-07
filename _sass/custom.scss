@@ -1,3 +1,6 @@
+@import "minimal-mistakes/variables";
+@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+
 .company-logo {
   padding-right: 5px;
   width: 40px;
@@ -6,25 +9,31 @@
 .about-me {
   .about-columns {
     display: flex;
+    flex-wrap: wrap
   }
 
   .avatar {
     display: block;
-    padding: 5px;
+    padding-bottom: 1em;
     border: 1px solid #f2f3f3;
     max-width: 250px;
     border-radius: 10%;
+    margin-right: 2em;
   }
 
   .bio {
-    padding: 0 2em;
+    width: 100%;
+    @include breakpoint($small) {
+      width: 65%;
+    }
+    padding-bottom: 1em;
   }
 
-  .author__urls {
+  .social_links {
     display: flex;
-    padding-top: 1em;
 
     a {
+      text-decoration: none;
       padding-right: 2em;
     }
   }
