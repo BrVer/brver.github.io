@@ -46,7 +46,7 @@ A million of articles, what I was able to find in 2 minutes:
 
 [https://www.sitepoint.com/7-design-patterns-to-refactor-mvc-components-in-rails/](https://www.sitepoint.com/7-design-patterns-to-refactor-mvc-components-in-rails/) ([the same but with better syntax highlighting](https://www.programmersought.com/article/3113725477/))
 
-Overkill for small tasks, but good in bigger projects: https://dry-rb.org/ <br/>
+Overkill for small tasks, but good in bigger projects: [**dry-rb family**](https://dry-rb.org/) <br/>
 For example, on the last project we used `dry-container`, `dry-auto-inject`, `dry-validation`, `dry-schema`, `dry-struct`
 (and I think we could also use `dry-events` instead of self-made implementation).
 Recommend to take a look at, there are some useful abstractions.
