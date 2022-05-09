@@ -25,26 +25,32 @@ end
 **EITHER**
 
 use [stackcollapse option](https://github.com/tmm1/stackprof/commit/453bb7f2831b110e7e8b983267e640a26897cdd6) + `flamegraph.pl`
-- `stackprof --stackcollapse tmp/stackprof-cpu-myapp.dump > tmp/stackcollapse`
-- `stackprof-flamegraph.pl tmp/stackcollapse > tmp/real-flamegraph.html` (this will produce an HTML file, ready to be open)
+```bash
+stackprof --stackcollapse tmp/stackprof-cpu-myapp.dump > tmp/stackcollapse
+stackprof-flamegraph.pl tmp/stackcollapse > tmp/real-flamegraph.html # (this will produce an HTML file, ready to be open)
+```
 
 **OR**
 
 use [stackcollapse option](https://github.com/tmm1/stackprof/commit/453bb7f2831b110e7e8b983267e640a26897cdd6) + `speedscope` service
 - `stackprof --stackcollapse tmp/stackprof-cpu-myapp.dump > tmp/stackcollapse`
-- open https://www.speedscope.app/ , drag&drop `tmp/stackcollapse`, switch to `Left Heavy` tab at the top left corner
+- open [speedscope.app](https://www.speedscope.app/) , drag&drop `tmp/stackcollapse`, switch to `Left Heavy` tab at the top left corner
 
 **OR**
 
 use [d3-flamegraph](https://github.com/tmm1/stackprof/pull/113)
-- `stackprof --d3-flamegraph tmp/stackprof-cpu-myapp.dump > tmp/d3-flamegraph.html` (this will produce an HTML file, ready to be open)
+```bash
+# (this will produce an HTML file, ready to be open)
+stackprof --d3-flamegraph tmp/stackprof-cpu-myapp.dump > tmp/d3-flamegraph.html
+```
 
 **OR**
 
 use [alphabetical flamegraph](https://github.com/tmm1/stackprof/pull/112)
-- `stackprof --alphabetical-flamegraph tmp/stackprof-cpu-myapp.dump > tmp/alpha-flamegraph`
-- `stackprof --flamegraph-viewer=tmp/alpha-flamegraph`
-- open the URL Stackprof gives you and enjoy!
+```bash
+stackprof --alphabetical-flamegraph tmp/stackprof-cpu-myapp.dump > tmp/alpha-flamegraph
+stackprof --flamegraph-viewer=tmp/alpha-flamegraph # then open the URL Stackprof gives you and enjoy!
+```
 
 ---
 
