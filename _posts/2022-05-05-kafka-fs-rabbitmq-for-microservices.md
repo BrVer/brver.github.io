@@ -5,7 +5,8 @@ date:   2022-05-05 16:55:24 +0200
 tags: rabbitmq kafka microservices ddd
 excerpt: Comparing 2 most popular choices for async microservice communication
 ---
-### Kafka vs RabbitMQ for inter-microservice communication
+
+[good video about kafka](https://www.youtube.com/watch?v=Ch5VhJzaoaI)
 
 #### Kafka
 - 1 topic by bounded context / aggregate (e.g. multiple events about 1 aggregate go to same topic)
