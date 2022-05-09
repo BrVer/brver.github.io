@@ -7,6 +7,10 @@
 }
 
 .about-me {
+  a {
+    text-decoration: none;
+  }
+
   .about-columns {
     display: flex;
     flex-wrap: wrap
@@ -14,7 +18,7 @@
 
   .avatar {
     display: block;
-    padding-bottom: 1em;
+    margin-bottom: 1em;
     border: 1px solid #f2f3f3;
     max-width: 250px;
     border-radius: 10%;
@@ -24,7 +28,7 @@
   .bio {
     width: 100%;
     @include breakpoint($small) {
-      width: 65%;
+      width: 60%;
     }
     padding-bottom: 1em;
   }
@@ -33,8 +37,11 @@
     display: flex;
 
     a {
-      text-decoration: none;
       padding-right: 2em;
+
+      i {
+        text-align: left;
+      }
     }
   }
 

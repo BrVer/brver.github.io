@@ -3,26 +3,39 @@
     <div class="about-columns">
         <img src="/assets/images/photo_bio.jpeg" alt="{{site.author.name}}" itemprop="image" class="u-photo" class="avatar">
         <div class="bio">
-            <p>My name is Dmitry, <br/> I'm a senior software engineer with 9 years of commercial software development experience, good team leadership experience and primary focus on BE (Ruby).</p>
+            <p>
+                My name is Dmitry, <br/> I'm a senior software engineer with 9 years of commercial software development experience, good team leadership experience and primary focus on BE (Ruby
+                <img src="/assets/images/ruby_logo.svg" alt="ruby logo" itemprop="image" class="u-photo" style="width: 1em">).
+            </p>
             {% if author.location %}
-            <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">{{ author.location }}</span>
+            <p>
+                <i class="fas fa-fw fa-map-marker-alt"  style= "width: auto" aria-hidden="true"></i> <span itemprop="name" class="p-locality">{{ author.location }}</span>
+            </p>
             {% endif %}
+            <p>
+                <a href="https://www.goodreads.com/review/list/151045904?order=d&sort=date_read" rel="nofollow noopener noreferrer me" target="_blank">
+                    <i class="fas fa-book" style="width: 1.25em" aria-hidden="true"></i><span class="label">Books I find worthwhile</span>
+                </a>
+            </p>
+
+            <div class="author__urls-wrapper">
+                <div class="social_links">
+                    {% if author.email %}
+                    <a href="mailto:{{ author.email }}" rel="me" class="u-email"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span></a>
+                    {% endif %}
+
+                    {% if author.links %}
+                    {% for link in author.links %}
+                    {% if link.label and link.url %}
+                    <a href="{{ link.url }}" rel="nofollow noopener noreferrer me" target="_blank"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
+                    {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+
         </div>
     </div>
 
-    <div class="author__urls-wrapper">
-        <div class="social_links">
-            {% if author.email %}
-            <a href="mailto:{{ author.email }}" rel="me" class="u-email"><meta itemprop="email" content="{{ author.email }}" /><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span></a>
-            {% endif %}
 
-            {% if author.links %}
-            {% for link in author.links %}
-            {% if link.label and link.url %}
-            <a href="{{ link.url }}" rel="nofollow noopener noreferrer me"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
-            {% endif %}
-            {% endfor %}
-            {% endif %}
-        </div>
-    </div>
 </div>
