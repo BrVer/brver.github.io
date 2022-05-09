@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Materials for Ruby devs"
+title:  "Good-looking code: tips"
 date:   2021-04-16 16:55:24 +0200
 tags: ruby OOP
 excerpt: list of good small articles helping to quickly improve the code quality
