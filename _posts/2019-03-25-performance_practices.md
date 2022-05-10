@@ -197,6 +197,8 @@ end
 ### 3.4 Conditional GET (HTTP `ETag` and `If-None-Match` headers)
 ! doesn't work together with previous example
 
+![conditional_get](/assets/images/performance_presentation/conditional_get.jpg)
+
 ```ruby
 class ProductsController < ApplicationController
  
@@ -216,6 +218,8 @@ end
 ```
 
 ### 4. Keep in mind the whole picture (Avoiding stupid logic problems)
+
+![stupid_logic](/assets/images/performance_presentation/stupid_logic.jpg)
 
 Example:
 - `service_1` process up to 50k transfers
