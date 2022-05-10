@@ -91,11 +91,9 @@ SELECT addresses.* FROM addresses
 ### Result:
 
 ![includes_vs_joins_1](/assets/images/performance_presentation/2_n_plus_one/includes_vs_joins_1.png)
-(it's not all the page)
-
-result:
+(it's not all the page)<br/>
 ![includes_vs_joins_2](/assets/images/performance_presentation/2_n_plus_one/includes_vs_joins_2.png)
----
+
  after fix:
 ![includes_vs_joins_3](/assets/images/performance_presentation/2_n_plus_one/includes_vs_joins_3.png)
 ![includes_vs_joins_4](/assets/images/performance_presentation/2_n_plus_one/includes_vs_joins_4.png)
