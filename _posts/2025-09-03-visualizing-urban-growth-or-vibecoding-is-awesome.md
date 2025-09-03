@@ -7,16 +7,15 @@ excerpt: 'Checking what AI is capable for nowadays'
 ---
 
 Inspired by [https://dominicroye.github.io/blog/visualize-urban-growth/](https://dominicroye.github.io/blog/visualize-urban-growth/), 
-I decided to visualise and compare various spanish cities maps (and also check how good is AI to do this job).
+I decided to visualise and compare various spanish cities maps (and also check how good AI is at doing this job)..
 
 As a result, AI was able to:
-- understand the whole required flow
-- provide a script in python
-- suggest how to write similar script for Basque country / Navarra (they publish data in different format)
-- refactor the scripts to support data caching, combining multiple data sources for a single image etc.
+- understand the entire required flow
+- provide a script in Python
+- suggest how to write a similar script for the Basque Country / Navarra (they publish data in a different format)
+- refactor the scripts to support data caching and combine multiple data sources for a single image, etc.
 
-
-So far, I'm pretty hyped with AI capabilities!
+So far, I’m pretty hyped about AI’s capabilities!
 
 **Result:**
 ![result](/assets/images/spanish_cities_results.jpg)
