@@ -15,5 +15,5 @@ tags: ruby concurrency parallelism threads fibers ractors async
 - fibers (developer manipulates concurrency explicitly)
 
 **non-blocking I/O:**
-- before: run multiple threads (they are smart enough to pass execution to another thread when blocking I/O occurs)
+- before: run multiple threads (they are smart enough to pass execution to another thread when a blocking I/O occurs)
 - now: use `async` gem - uses fibers + fiber scheduler (introduced in ruby 3), so it’s much more fast/lightweight

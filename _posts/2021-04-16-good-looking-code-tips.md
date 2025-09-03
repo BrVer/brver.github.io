@@ -3,11 +3,11 @@ layout: single
 title:  "Good-looking code: tips"
 date:   2021-04-16 16:55:24 +0200
 tags: ruby OOP
-excerpt: list of good small articles helping to quickly improve the code quality
+excerpt: list of good small articles helping to quickly improve code quality
 ---
 
 **Disclaimer:**
-There's lots of awesome books regarding OOP and how to write a good code
+There are lots of awesome books about OOP and how to write good code
 (for example, 99 bottles of OOP, but there are tons of them)!
 
 However, books take longer time to read,

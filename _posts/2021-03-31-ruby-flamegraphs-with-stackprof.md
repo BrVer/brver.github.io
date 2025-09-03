@@ -6,7 +6,7 @@ tags: flamegraph stackprof
 excerpt: Recently found, a better way to generate flamegraph for ruby, using stackprof
 ---
 Some time ago [I spoke about Flamegraph]({% post_url 2019-11-20-rubylnik-conference-flamegraph %}),
-but only recently found that there's better way to generate it for ruby:
+but only recently found that there's a better way to generate it for ruby:
 
 **USAGE:**
 

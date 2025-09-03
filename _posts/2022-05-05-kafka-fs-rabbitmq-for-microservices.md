@@ -6,7 +6,7 @@ tags: rabbitmq kafka microservices ddd
 excerpt: Comparing 2 most popular choices for async microservice communication
 ---
 
-[good small video about kafka](https://www.youtube.com/watch?v=Ch5VhJzaoaI)
+[good short video about kafka](https://www.youtube.com/watch?v=Ch5VhJzaoaI)
 
 **AWESOME comparison:**
 - [part 1](https://www.youtube.com/watch?v=sjDnqrnnYNM)

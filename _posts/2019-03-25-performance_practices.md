@@ -6,12 +6,12 @@ tags: performance flamegraph
 excerpt: list of simple, yet effective practices
 ---
 **Disclaimer:**
-Below is the draft containing the list of practices I shared with less experienced devs in 2018/2019
+Below is a draft containing a list of practices I shared with less experienced devs in 2018/2019
 
 ---
 ![main_image](/assets/images/performance_presentation/main_image.jpg)
 
-**There's a specific set of practices, which will help you to eliminate most of the performance problems**
+**There's a specific set of practices that will help you eliminate most performance problems**
 
 ## Agenda
 **Part 1: practices**
@@ -23,7 +23,7 @@ Below is the draft containing the list of practices I shared with less experienc
 - Dealing with Too long DB queries (e.g. Use index, Luke!)
 
 **Part 2: general tips**
-- how to catch performance problems at the place
+- how to catch performance problems on the spot
 - when to optimize
 - flamegraph
 
