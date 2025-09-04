@@ -28,7 +28,9 @@ AI was able to:
 - suggest how to write a similar script for the Basque Country / Navarra (they publish data in a different format), and gradually make it work.
 - follow instructions to improve the scripts (e.g. combine multiple data sources, use caching etc.)
 
-### Result:
+### Results:
 ![result](/assets/images/spanish_cities_results.jpg)
+
+![gif](/assets/images/valencia_growth_1940_2025_5y_step_4350m.gif)
 
 So far, I am quite excited about AI’s capabilities!
