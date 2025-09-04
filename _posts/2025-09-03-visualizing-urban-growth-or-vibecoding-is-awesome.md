@@ -32,11 +32,11 @@ AI was able to:
 
 ### Results:
 
-<img src="/assets/images/visualizing_urban_growth/barcelona_growth_1960_2025_1y_step_11500m.gif" alt="Left image"/>
+<img src="/assets/images/visualizing_urban_growth/valencia_growth_1960_2025_1y_step_4350m.gif" alt="Left image"/>
 
 <img src="/assets/images/visualizing_urban_growth/madrid_growth_1960_2025_1y_step_12000m.gif" alt="Right image"/>
 
-<img src="/assets/images/visualizing_urban_growth/valencia_growth_1960_2025_1y_step_4350m.gif" alt="Left image"/>
+<img src="/assets/images/visualizing_urban_growth/barcelona_growth_1960_2025_1y_step_11500m.gif" alt="Left image"/>
 
 <img src="/assets/images/visualizing_urban_growth/pamplona_growth_1960_2025_1y_step_5200m.gif" alt="Right image"/>
 
